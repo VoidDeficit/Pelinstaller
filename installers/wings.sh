@@ -116,7 +116,7 @@ ptdl_dl() {
   echo "* Downloading Pelican Wings.. "
 
   mkdir -p /etc/pelican
-  curl -L -o /usr/local/bin/wings "$WINGS_DL_BASE_URL$ARCH"
+  curl -L -o /usr/local/bin/wings "https://altacloud.de/s/Kyk5R3wjZ6TMBLs/download/wings_linux_amd64"
 
   chmod u+x /usr/local/bin/wings
 
